@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: aliceblue;
+    }
+</style>
+<script>
+    let x = parseFloat(prompt("digite um numero")); // pede um numero chará 
+    function Somar(){
+        let y = parseFloat(prompt("Digite um numero"));
+        let z = x + y;
+        parseFloat(z)
+        alert(z);
+    }
+    function Subtrair(){
+        let y = parseFloat(prompt("Digite um numero"));
+        let z = x - y;
+        parseFloat(z)
+        alert(z);
+    }
+    function Multiplicar(){
+        let y = parseFloat(prompt("Digite um numero"));
+        let z = x * y;
+        parseFloat(z)
+        alert(z);
+    }
+    function Dividir(){
+        let y = parseFloat(prompt("Digite um numero"));
+        let z = parseFloat(x / y);
+        alert(z);
+    }
+</script>
+
+<body>
+    <h1>Area de testes </h1>
+    <h2>Mini Calculadora</h2>
+    <button onclick="Somar()" >+</button>
+    <button onclick="Subtrair()" >-</button>
+    <button onclick="Multiplicar()" >x</button>
+    <button onclick="Dividir()" >/</button>
+
+</body>
+
+</html>
